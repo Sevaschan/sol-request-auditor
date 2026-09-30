@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "sol-request-auditor",
+  "name": "Sol Request Auditor",
+  "description": "Audit GPT-6.1 Sol request profiles for endpoint, tool, reasoning, residency, context and cost compatibility before migration.",
+  "source": {
+    "format": "ipollowork-extension-manifest",
+    "origin": "local",
+    "trusted": false
+  },
+  "package": {
+    "version": "1.0.0",
+    "publisher": {
+      "id": "sevaschan",
+      "name": "Sevaschan"
+    },
+    "updateId": "sevaschan/sol-request-auditor",
+    "compatibility": {
+      "ipollowork": ">=0.50.12"
+    }
+  },
+  "resources": [
+    {
+      "type": "skill",
+      "id": "sol-request-auditor",
+      "label": "Sol Request Auditor",
+      "path": "skills/sol-request-auditor",
+      "required": true
+    }
+  ]
+}
